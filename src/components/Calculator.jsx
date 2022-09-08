@@ -38,7 +38,7 @@ export default function Calculator() {
     const operatorInput = e.target.value;
     setOperator(operatorInput);
     setOldNum(num);
-    setNum(0);
+    setNum("");
   } 
 
   function calcular() {
