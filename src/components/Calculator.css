@@ -22,7 +22,7 @@ button:hover{
     cursor: pointer;
 }
 .wrapper{
-    background-color:black;
+    background-color:rgb(255, 255, 255);
     border-radius: 16px;
     padding: 1px;
     max-width:416px;
