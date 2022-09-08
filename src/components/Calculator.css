@@ -2,6 +2,7 @@ body{
     background: url("../assets/img/rick.png");
     background-repeat: no-repeat;
     background-size:auto;
+    position: relative;
 }
 Header{
     width: 10px;
@@ -26,6 +27,7 @@ button:hover{
     margin-left: 450px;
     margin-top: 300px;
     font-family: monospace;
+    position: relative;
 }
 .container{
     width: 55px;
