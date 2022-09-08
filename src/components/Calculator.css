@@ -1,0 +1,135 @@
+body{
+    background: url("../assets/img/rick.png");
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+Header{
+    width: 10px;
+    height: 10px;
+}
+button{
+    width: 70px;
+    height: 70px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 24px;
+    margin: 0.3em;
+}
+button:hover{
+    cursor: pointer;
+}
+.wrapper{
+    background-color:black;
+    border-radius: 16px;
+    padding: 1px;
+    max-width:416px;
+    margin-left: 450px;
+    margin-top: 300px;
+    font-family: monospace;
+}
+.container{
+    width: 55px;
+    height: 55px;
+    background-color: aqua;
+}
+.orange{
+    background-color: #FF9500;
+    color: white;
+}
+.gray{
+    background-color: #505050;
+    color: white;
+}
+.result{
+    color: rgb(245, 247, 248);
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px; 
+    font-size:50px;
+    text-align: center;
+    font-family: monospace;
+}
+#eliminar{
+    background: url("../assets/img/delete1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color:transparent;
+    font-family: fantasy;
+}
+
+#division{
+    background: url("../assets/img/division.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color:transparent;
+}
+#multiplicacion{
+    background: url("../assets/img/multiplicacion.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color:transparent;
+    text-decoration: none;
+        
+        color: transparent;
+        background-color: transparent;
+    }
+.division:hover{
+    color: rgb(40, 247, 102);
+    background-color: #2a85a6;
+    }
+
+#resta{
+    background: url("../assets/img/resta.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color:transparent;
+}
+
+#porcen{
+    background: url("../assets/img/porcen.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color:transparent;
+}
+.numeros{
+    text-decoration: none;
+    background-position: center;
+    width: 70px;
+    height: 70px; 
+    color: white;
+    background-color: transparent;
+    font-family: monospace; 
+    font-size: 30px;
+}
+.numeros:hover{
+    background: url("../assets/img/numeros3.png");
+    color: transparent;
+    background-color: #010202;
+}
+.igual{
+        text-decoration: none;
+        width: 160px;
+        height: 70px; 
+        color: white;
+        background-color: transparent;
+        border: 1px solid #08560c;
+    }
+.igual:hover{
+    background: url("../assets/img/igualxd.png");
+    background-repeat: no-repeat;
+    color: transparent;
+    background-color: transparent;
+    }
+
+.suma{
+    background: url("../assets/img/sumaxd.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color:transparent;
+    }
+.delete{
+    background: url("../assets/img/ricardito2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color:transparent;
+    }
